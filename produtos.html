@@ -16,80 +16,82 @@
 		</button>
 		<navbar>
 
-		<div>
-			<div>Gerenciar Produtos:</div>
+		<div class="container d-flex flex-column">
 			<div>
-				<button>Novo Produto</button>
+				<div>Gerenciar Produtos:</div>
 			</div>
-			<div class="container w-80">
-				<table class="table table-striped">
-					<thead>
-						<th scope="col">id</th>
-						<th scope="col">Produto</th>
-						<th scope="col">Preço</th>
-						<th scope="col">Estoque</th>
-						<th scope="col">Ações</th>
-					</thead>
-					<tbody>
-						<tr scope="row">
-							<td>1</td>
-							<td>Bicicleta</td>
-							<td>R$ 1.000,00</td>
-							<td>110</td>
-							<td>
-								<button type="button" class="btn btn-secondary">
-									Editar
-								</button>
-								<button type="button" class="btn btn-secondary">
-									Excluir
-								</button>
-							</td>
-						</tr>
-						<tr scope="row">
-							<td>2</td>
-							<td>Echo dot</td>
-							<td>R$ 600,00</td>
-							<td>8</td>
-							<td>
-								<button type="button" class="btn btn-secondary">
-									Editar
-								</button>
-								<button type="button" class="btn btn-secondary">
-									Excluir
-								</button>
-							</td>
-						</tr>
-						<tr scope="row">
-							<td>3</td>
-							<td>Celular</td>
-							<td>R$ 1.500,00</td>
-							<td>10</td>
-							<td>
-								<button type="button" class="btn btn-secondary">
-									Editar
-								</button>
-								<button type="button" class="btn btn-secondary">
-									Excluir
-								</button>
-							</td>
-						</tr>
-						<tr scope="row">
-							<td>4</td>
-							<td>Umidificador</td>
-							<td>R$ 100,00</td>
-							<td>0</td>
-							<td>
-								<button type="button" class="btn btn-secondary">
-									Editar
-								</button>
-								<button type="button" class="btn btn-secondary">
-									Excluir
-								</button>
-							</td>
-						</tr>
-					</tbody>
-				</table>
+			<div class="d-flex align-self-end">
+				<button class="btn btn-warning">Novo Produto</button>
 			</div>
+		</div>
+		<div class="container w-80">
+			<table class="table table-striped">
+				<thead>
+					<th scope="col">id</th>
+					<th scope="col">Produto</th>
+					<th scope="col">Preço</th>
+					<th scope="col">Estoque</th>
+					<th scope="col">Ações</th>
+				</thead>
+				<tbody>
+					<tr scope="row">
+						<td>1</td>
+						<td>Bicicleta</td>
+						<td>R$ 1.000,00</td>
+						<td>110</td>
+						<td>
+							<button type="button" class="btn btn-secondary">
+								Editar
+							</button>
+							<button type="button" class="btn btn-secondary">
+								Excluir
+							</button>
+						</td>
+					</tr>
+					<tr scope="row">
+						<td>2</td>
+						<td>Echo dot</td>
+						<td>R$ 600,00</td>
+						<td>8</td>
+						<td>
+							<button type="button" class="btn btn-secondary">
+								Editar
+							</button>
+							<button type="button" class="btn btn-secondary">
+								Excluir
+							</button>
+						</td>
+					</tr>
+					<tr scope="row">
+						<td>3</td>
+						<td>Celular</td>
+						<td>R$ 1.500,00</td>
+						<td>10</td>
+						<td>
+							<button type="button" class="btn btn-secondary">
+								Editar
+							</button>
+							<button type="button" class="btn btn-secondary">
+								Excluir
+							</button>
+						</td>
+					</tr>
+					<tr scope="row">
+						<td>4</td>
+						<td>Umidificador</td>
+						<td>R$ 100,00</td>
+						<td>0</td>
+						<td>
+							<button type="button" class="btn btn-secondary">
+								Editar
+							</button>
+							<button type="button" class="btn btn-secondary">
+								Excluir
+							</button>
+						</td>
+					</tr>
+				</tbody>
+			</table>
 		</div>
 
 		<!-- modal cadastrar produtos -->
